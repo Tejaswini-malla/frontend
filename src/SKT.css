@@ -1,0 +1,85 @@
+* {
+  margin:0;
+  padding:0;
+}
+.SKTApp {
+  background: linear-gradient(135deg, #0c8551 , #07f8d0);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.SKTapp-wrapper{
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.SKTtitle{
+  color: #f80759;
+  text-align: center;
+  margin: 80px 0px 40px 0px;
+}
+.SKTname{
+  margin:20px;
+  color:#969292;
+  font-size: 16px;
+  
+}
+.SKTemail{
+  margin:20px;
+  color:#969292;
+  font-size: 16px;
+
+}
+.SKTpassword{
+  margin:20px;
+  color:#969292;
+  font-size: 16px;
+}
+.SKTpassword{
+  margin-bottom : 40px;
+}
+.SKTinput{
+  height:32px;
+  font-size: 20px;
+  outline: none;
+  width:100%;
+  border-top-style:none ;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.SKTerror{
+  color: #f80759;
+}
+.SKTButton{
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 25px;
+  color:white;
+  padding: 10px 60px;
+  background: linear-gradient(to right, #0c598599 , #07f8c4);
+  box-shadow: rgba(0,0,0,0.3)0px 19px 38px,
+      rgba(0,0,0,0.22) 0px 15px 12px;
+      margin: auto;
+      outline: none;
+      border: none;
+      cursor:pointer;
+      transition: all 0.1s;
+
+}
+.SKTfooter{
+  display: flex;
+  justify-content: center;
+  margin-top: 500px;
+  min-width: 370px;
+  color:#f80788eb;
+}
